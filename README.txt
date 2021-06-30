@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== allow_only_last_item_in_cart ===
 Contributors: (this should be a list of wordpress.org userid's)
 Donate link: https://www.virtualheight.com/
 Tags: comments, spam
