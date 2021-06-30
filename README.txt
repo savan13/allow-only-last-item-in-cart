@@ -1,25 +1,26 @@
 === allow_only_last_item_in_cart ===
-Contributors: (this should be a list of wordpress.org userid's)
+Contributors: savan91
 Donate link: https://www.virtualheight.com/
-Tags: comments, spam
+Tags: woocommerce, cart
 Requires at least: 3.0.1
+Version: 1.0.0
 Tested up to: 3.4
 Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+This Plugin gives you the functionality when the user clicks on Add to Cart button it will clear all previous cart data entirely and add new cart data, only allow one product purchase at a time.
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+This Plugin gives you the functionality when the user clicks on Add to Cart button it will clear all previous cart data entirely and add new cart data, only allow one product purchase at a time.
 
 For backwards compatibility, if this section is missing, the full length of the short description will be used, and
 Markdown parsed.
 
 A few notes about the sections above:
 
-*   "Contributors" is a comma separated list of wp.org/wp-plugins.org usernames
+*   "Contributors" is a comma separated list of https://wordpress.org/wp-plugins.org usernames
 *   "Tags" is a comma separated list of tags that apply to the plugin
 *   "Requires at least" is the lowest version that the plugin will work on
 *   "Tested up to" is the highest version that you've *successfully used to test the plugin*. Note that it might work on
@@ -45,7 +46,7 @@ e.g.
 
 1. Upload `allow_only_last_item_in_cart.php` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
+1. Place `<?php do_action('allow_only_last_item_in_cart'); ?>` in your templates
 
 == Frequently Asked Questions ==
 
@@ -102,7 +103,7 @@ Unordered list:
 * something else
 * third thing
 
-Here's a link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
+Here's a link to [WordPress](https://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
 Titles are optional, naturally.
 
 [markdown syntax]: http://daringfireball.net/projects/markdown/syntax
