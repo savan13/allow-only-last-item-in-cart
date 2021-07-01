@@ -29,9 +29,9 @@
 defined('ABSPATH') || exit;
 class Allow_Only_Last_Item_In_Cart{
     function __construct() {
-     add_action( 'woocommerce_before_calculate_totals', array($this,'wcaopc_keep_only_last_cart_item'), 30, 1 );
+     add_action( 'woocommerce_before_calculate_totals', array($this,'vh_keep_only_last_cart_item'), 30, 1 );
     }
-  function wcaopc_keep_only_last_cart_item( $cart ) {
+  function vh_keep_only_last_cart_item( $cart ) {
     if ( is_admin() && ! defined( 'DOING_AJAX' ) )
         return;
     if ( did_action( 'woocommerce_before_calculate_totals' ) >= 2 )
