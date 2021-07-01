@@ -1,4 +1,4 @@
-=== Allow only last item in cart ===
+=== Allow Only Last Item In Cart ===
 Contributors: savan91
 Donate link: https://www.virtualheight.com/
 Tags: comments, spam
