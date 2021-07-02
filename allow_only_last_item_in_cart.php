@@ -17,6 +17,7 @@
  * Plugin URI:        https://www.virtualheight.com/
  * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
  * Version:           1.0.0
+ * Tested up to:      5.4
  * Author:            Virtual Height IT Services Ltd
  * Author URI:        https://www.virtualheight.com/
  * License:           GPL-2.0+
