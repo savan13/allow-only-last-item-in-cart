@@ -3,7 +3,7 @@ Contributors: savan91
 Donate link: https://www.virtualheight.com/
 Tags: comments, spam
 Requires at least: 4.7
-Tested up to: 5.4
+Tested up to: 5.2
 Stable tag: 4.3
 Requires PHP: 7.0
 License: GPLv2 or later
