@@ -16,7 +16,7 @@
  * Plugin Name:       Allow Only Last Item In Cart
  * Plugin URI:        https://www.virtualheight.com/
  * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version:           5.7
+ * Version:           4.3
  * Tested up to:      5.7
  * Author:            Virtual Height IT Services Ltd
  * Author URI:        https://www.virtualheight.com/
