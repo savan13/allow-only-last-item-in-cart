@@ -26,7 +26,7 @@ e.g.
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Place `<?php do_action('allow_only_last_item_in_cart'); ?>` in your templates
 
-
+   
 A few notes about the sections above:
 
 *   "Contributors" is a comma separated list of wordpress.org usernames
@@ -67,7 +67,7 @@ Answer to foo bar dilemma.
 = 1.0 =
 * A change since the previous version.
 * Another change.
-
+   
 = 0.5 =
 * List versions from most recent at top to oldest at bottom.
 
